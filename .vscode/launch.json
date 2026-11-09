@@ -10,7 +10,8 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "stopOnEntry": true
+            "stopOnEntry": true,
+            "cwd": "${fileDirname}"  // <-- Ajoute cette ligne pour que VS Code se place dans le dossier du fichier actif (p2)
         }
     ]
 }
